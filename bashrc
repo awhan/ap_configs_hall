@@ -114,3 +114,5 @@ mf () {
 ding () {
   play -qn synth 2 pluck C
 }
+
+show () { local env_var="${1^^}"; echo "${!env_var}"; }
