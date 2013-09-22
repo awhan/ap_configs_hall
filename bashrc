@@ -7,10 +7,10 @@
 
 PS1='[\u@\h \w]\n\$ '
 
-
 alias l='\ls --color=always'
 alias la='\ls -A --color=always'
 alias lrt='\ls --color=always -r1t'
+
 alias am='alsamixer'
 alias m='mplayer -fs -loop 0'
 alias v='vim'
@@ -36,6 +36,9 @@ alias val='valgrind -v --leak-check=full \
 
 export PATH="${PATH}:~/bin"
 export HISTCONTROL=ignoreboth
+export HISTSIZE=10000
+export HISTFILESIZE=10000
+export HISTIGNORE="ls:l:cd:yy:yu"
 #export TERM=xterm-256color
 #export EDITOR=~/bin/e
 
