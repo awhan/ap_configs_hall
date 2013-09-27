@@ -20,6 +20,7 @@ alias eb='vim ~/.bashrc'
 alias sb='source ~/.bashrc'
 alias ev='vim ~/.vimrc'
 alias cls='clear && tmux clear-history'
+alias vifm='TERM=screen \vifm'
 
 alias ss='pacman --color=always -Ss'
 alias yu='sudo pacman --color=always -Syu'
@@ -39,7 +40,7 @@ export HISTCONTROL=ignoreboth
 export HISTSIZE=10000
 export HISTFILESIZE=10000
 export HISTIGNORE="ls:l:cd:yy:yu"
-#export TERM=xterm-256color
+export TERM=xterm-256color
 #export EDITOR=~/bin/e
 
 man() {
@@ -119,3 +120,5 @@ ding () {
 }
 
 show () { local env_var="${1^^}"; echo "${!env_var}"; }
+
+mkcd () { mkdir -p "$@" && cd "#$@" ; }
