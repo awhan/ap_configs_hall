@@ -121,4 +121,4 @@ ding () {
 
 show () { local env_var="${1^^}"; echo "${!env_var}"; }
 
-mkcd () { mkdir -p "$@" && cd "#$@" ; }
+mkcd () { mkdir -p "$@" && cd "$@" ; }
