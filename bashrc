@@ -40,7 +40,7 @@ export HISTCONTROL=ignoreboth
 export HISTSIZE=10000
 export HISTFILESIZE=10000
 export HISTIGNORE="ls:l:cd:yy:yu"
-export TERM=xterm-256color
+#export TERM=xterm-256color
 #export EDITOR=~/bin/e
 
 man() {
