@@ -30,16 +30,21 @@ alias qi='pacman --color=always -Qi'
 alias qo='pacman --color=always -Qo'
 alias qm='pacman --color=always -Qm'
 alias ql='pacman --color=always -Ql'
+alias qqet='pacman --color=always -Qqet' # uneeded + explicit
+
 alias si='pacman --color=always -Si'
+alias sii='pacman --color=always -Sii'
+
+alias rnss='sudo pacman --color=always -Rnss'
 
 alias val='valgrind -v --leak-check=full \
 --show-reachable=yes --track-origins=yes'
 
-export PATH="${PATH}:~/bin"
+export PATH="${PATH}:$HOME/bin"
 export HISTCONTROL=ignoreboth
 export HISTSIZE=10000
 export HISTFILESIZE=10000
-export HISTIGNORE="ls:l:cd:yy:yu"
+export HISTIGNORE="ls:l:cd:yy:yu:lg:dg:v"
 #export TERM=xterm-256color
 #export EDITOR=~/bin/e
 
