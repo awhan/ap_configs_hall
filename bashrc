@@ -7,6 +7,8 @@
 
 PS1='[\u@\h \w]\n\$ '
 
+alias xl='echo "loading ~/.Xresources ..."; xrdb -load ~/.Xresources'
+
 alias l='\ls --color=always'
 alias la='\ls -A --color=always'
 alias lrt='\ls --color=always -r1t'
@@ -36,6 +38,8 @@ alias si='pacman --color=always -Si'
 alias sii='pacman --color=always -Sii'
 
 alias rnss='sudo pacman --color=always -Rnss'
+# rnss_dry_run() {
+#     \pacman -Rnsspu 
 
 alias val='valgrind -v --leak-check=full \
 --show-reachable=yes --track-origins=yes'

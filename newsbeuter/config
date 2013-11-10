@@ -1,0 +1,11 @@
+bind-key j down
+bind-key k up
+bind-key d delete-article
+#macro d delete-article ; quit
+macro d quit ; delete-article
+browser "firefox -new-tab %u"
+confirm-exit true
+always-display-description true
+
+# https://github.com/jmatraszek/dotfiles/blob/master/newsbeuter/config
+color listfocus white black
