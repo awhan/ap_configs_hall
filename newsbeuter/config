@@ -8,4 +8,9 @@ confirm-exit true
 always-display-description true
 
 # https://github.com/jmatraszek/dotfiles/blob/master/newsbeuter/config
-color listfocus white black
+#color listfocus white black
+#color listnormal white red
+#color listnormal white red
+#color info white red
+
+include "~/.newsbeuter/newsbeuter_solarized_dark"

@@ -1,8 +1,6 @@
 http://0pointer.de/blog/index.rss20 "gnu"
-http://108leaves.com/dailyc++/?feed=rss2 "c++"
 http://3dpancakes.typepad.com/ernie/atom.xml
 http://aaronfishermagic.wordpress.com/feed/ "magic"
-http://academicearth.org/academicearth.rss "phd"
 http://accu.org/index.php/journals/c78/?theme=rss "c++"
 http://administratosphere.wordpress.com/feed/ "gnu"
 http://allanmcrae.com/feed/ "gnu" "archlinux"
@@ -579,6 +577,7 @@ http://www.linux.com/rss/feeds.php "gnu"
 http://www.linuxfromscratch.org/lfs/feed.rss "gnu"
 http://www.linuxjournal.com/blog/feed "gnu"
 http://www.linuxtopia.org/linuxtopia.rss "gnu"
+http://www.linuxvoice.com/feed/ "gnu" "linux
 http://www.lispcast.com/drupal/rss.xml "emacs"
 http://www.lleess.com/feeds/posts/default?alt=rss "python" "ml" "data mining"
 http://www.machinedlearnings.com/feeds/posts/default?alt=rss "machine learning"
